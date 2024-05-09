@@ -122,3 +122,32 @@ li {
     margin-top: 8px; 
     color: rgb(101, 110, 129);
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+.quote p {
+    margin: 100px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 0;
+    max-width: 800px;
+}
+
+.quote #name {
+    display: flex;
+    min-width: 700px;
+    justify-content: flex-end;
+    margin-top: 0; 
+    font-size: 22px;
+    margin-bottom: 100px; 
+    font-style: normal;
+    font-weight: 700; 
+}
+
